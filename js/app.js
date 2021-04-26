@@ -1,7 +1,6 @@
 'use strict';
 
 let userName = prompt('please enter your name');
-alert(`Hello, ${userName}. Glad to have you inside my website!`);
 
 let study = prompt('Do you think I studied programming at univirsity (yes,no)?');
 study = study.toLowerCase();
@@ -102,3 +101,5 @@ switch (sing) {
         //console.log('true');//
         alert('CORRECT!');
 }
+
+alert(`Hello, ${userName}. Glad to have you inside my website!`);
