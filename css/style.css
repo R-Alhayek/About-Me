@@ -13,3 +13,17 @@ img {
     width: 33%;
     padding: 1px;
 }
+.top {
+    font-size:1cm;
+    font-style: oblique;
+}
+div ol li {
+    color:rgb(117, 7, 7);
+    font-size: 25px;
+    font-family:monospace;
+}
+div ul li {
+    color:rgb(23, 119, 114);
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
