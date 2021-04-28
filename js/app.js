@@ -2,7 +2,7 @@
 let score = 0;
 let userName = prompt("please enter your name");
 
-function askStduy() {
+function askStudy() {
   let study = prompt(
     "Do you think I studied programming at univirsity (yes,no)?"
   );
@@ -128,7 +128,7 @@ alert(`Hello, ${userName}. Glad to have you inside my website!`);
 function askFavnumber() {
   let favNumber = Number(
     prompt(
-      "Guess my favorit number?/ You Only have 4 guesses and it's between 1 to 10"
+      "Guess my favorit number?/ You Only have 4 guesses "
     )
   );
   let attempt = 0;
@@ -169,19 +169,13 @@ function askCity() {
       favCity = prompt("try again").toLowerCase();
       console.log("wrong");
     }
-    // if (favCity === city[i]) {
-    //   alert("CORRECT!");
-    //   console.log("true");
-    //   score++;
-    //   dot = true;
-    //   break;
-    // }
+   
   }
   if (attempt >= 5) {
     favCity = alert(city);
   }
 }
-askStduy();
+askStudy();
 askAge();
 askMovies();
 askCook();
@@ -189,4 +183,4 @@ askSing();
 askFavnumber();
 askCity();
 
-alert(`your score is ${score}`);
+alert(`Your score is ${score}`);
