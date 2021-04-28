@@ -156,7 +156,7 @@ function askFavnumber() {
 function askCity() {
   let attempt = 0;
   let city = ["paris", "dubai", "tokyo", "rome"];
-  let favCity = prompt("Guess what city I dream to visit?").toLowerCase();
+  let favCity = prompt("Guess what city I dream to visit? You have 6 attempts").toLowerCase();
   let dot = false;
   for (let i = 0; i < 5; i++) {
     if (city.indexOf(favCity) != -1) {
@@ -166,13 +166,13 @@ function askCity() {
       break;
     } else {
       attempt++;
-      favCity = prompt("try again").toLowerCase();
+      favCity = prompt("Try again! One more attempt to go").toLowerCase();
       console.log("wrong");
     }
    
   }
   if (attempt >= 5) {
-    favCity = alert(city);
+    favCity = alert(`I dream to visit ${city}`);
   }
 }
 askStudy();
