@@ -1,6 +1,6 @@
-h1 {
-    text-align: center;
-    color:seagreen;
+nav ul li {
+    display:inline-block;
+    padding: 20px;
 }
 p {
     font-size: 25px;
