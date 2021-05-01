@@ -1,4 +1,4 @@
-ul li {
+nav ul li  {
     background-color:#eb73af ;
     border-width: 2px;
     border-radius: 5px;
@@ -27,16 +27,7 @@ section img {
     font-size:1cm;
     font-style: oblique;
 }
-div ol li {
-    color:rgb(117, 7, 7);
-    font-size: 25px;
-    font-family:monospace;
-}
-div ul li {
-    color:rgb(23, 119, 114);
-    font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+
 body {
     background-color:#89e1f3 ;
 }
@@ -45,18 +36,29 @@ li {
     padding: 8px;
     margin-bottom: 7px;
 }
-#coder {
+.coder {
     float: right;
     width: 60%;
 }
-div  img {
-    width:200px;
-    height: 200px;
-    border-width: 2px;
-    border-radius: 5px;
+div  {
+    width:180px;
+    float:left;
+    margin:5px;
 }
-.title {
+div img {
+    border-width: 2px;
+    border-radius: 15px;
+}
+h1 {
     text-align: center;
     font-size: 35px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#4e4d4d;
+}
+div ul li p {
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#4e4d4d;
+    
 }
