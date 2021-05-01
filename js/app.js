@@ -1,5 +1,5 @@
 "use strict";
-/*let score = 0;
+let score = 0;
 let userName = prompt("please enter your name");
 
 function askStudy() {
