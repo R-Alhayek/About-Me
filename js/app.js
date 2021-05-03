@@ -9,20 +9,20 @@ function askStudy() {
   study = study.toLowerCase();
   switch (study) {
     case "yes":
-      //console.log('wrong!');//
+      console.log('wrong!');
       alert("NAH, NOT REALLY!!");
       break;
     case "y":
-      //console.log('wrong!');//
+      console.log('wrong!');
       alert("NAH, NOT REALLY!!");
       break;
     case "no":
-      //console.log('true');//
+      console.log('true');
       alert("CORRECT!");
       score++;
       break;
     case "n":
-      //console.log('true');//
+      console.log('true');
       alert("CORRECT!");
       score++;
   }
@@ -33,21 +33,21 @@ function askAge() {
   age = age.toLowerCase();
   switch (age) {
     case "yes":
-      //console.log('correct!');//
+      console.log('correct!');
       alert("CORRECT!");
       score++;
       break;
     case "y":
-      //console.log('correct!');//
+      console.log('correct!');
       alert("CORRECT!");
       score++;
       break;
     case "no":
-      //console.log('wrong');//
+      console.log('wrong');
       alert("NAH, NOT REALLY!");
       break;
     case "n":
-      //console.log('wrong');//
+      console.log('wrong');
       alert("NAH, NOT REALLY!");
   }
 }
@@ -57,20 +57,20 @@ function askMovies() {
   movies = movies.toLowerCase();
   switch (movies) {
     case "yes":
-      //console.log('wrong');//
+      console.log('wrong');
       alert("NAH, NOT REALLY!");
       break;
     case "y":
-      //console.log('wrong');//
+      console.log('wrong');
       alert("NAH, NOT REALLY!!");
       break;
     case "no":
-      //console.log('true');//
+      console.log('true');
       alert("CORRECT!");
       score++;
       break;
     case "n":
-      //console.log('true');//
+      console.log('true');
       alert("CORRECT!");
       score++;
   }
@@ -80,21 +80,21 @@ function askCook() {
   cook = cook.toLowerCase();
   switch (cook) {
     case "yes":
-      //console.log('correct!');//
+      console.log('correct!');
       alert("CORRECT!");
       score++;
       break;
     case "y":
-      //console.log('correct!');//
+      console.log('correct!');
       alert("CORRECT!");
       score++;
       break;
     case "no":
-      //console.log('wrong');//
+      console.log('wrong');
       alert("NAH, NOT REALLY!");
       break;
     case "n":
-      //console.log('wrong');//
+      console.log('wrong');
       alert("NAH, NOT REALLY!");
   }
 }
@@ -104,20 +104,20 @@ function askSing() {
   sing = sing.toLowerCase();
   switch (sing) {
     case "yes":
-      //console.log('wrong');//
+      console.log('wrong');
       alert("NAH, NOT REALLY!");
       break;
     case "y":
-      //console.log('wrong');//
+      console.log('wrong');
       alert("NAH, NOT REALLY!");
       break;
     case "no":
-      //console.log('true');//
+      console.log('true');
       alert("CORRECT!");
       score++;
       break;
     case "n":
-      //console.log('true');//
+      console.log('true');
       alert("CORRECT!");
       score++;
   }
