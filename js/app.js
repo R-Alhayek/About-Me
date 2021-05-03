@@ -9,20 +9,20 @@ function askStudy() {
   study = study.toLowerCase();
   switch (study) {
     case "yes":
-      console.log('wrong!');
+      
       alert("NAH, NOT REALLY!!");
       break;
     case "y":
-      console.log('wrong!');
+      
       alert("NAH, NOT REALLY!!");
       break;
     case "no":
-      console.log('true');
+     
       alert("CORRECT!");
       score++;
       break;
     case "n":
-      console.log('true');
+     
       alert("CORRECT!");
       score++;
   }
@@ -33,21 +33,21 @@ function askAge() {
   age = age.toLowerCase();
   switch (age) {
     case "yes":
-      console.log('correct!');
+     
       alert("CORRECT!");
       score++;
       break;
     case "y":
-      console.log('correct!');
+      
       alert("CORRECT!");
       score++;
       break;
     case "no":
-      console.log('wrong');
+      
       alert("NAH, NOT REALLY!");
       break;
     case "n":
-      console.log('wrong');
+      
       alert("NAH, NOT REALLY!");
   }
 }
@@ -57,20 +57,20 @@ function askMovies() {
   movies = movies.toLowerCase();
   switch (movies) {
     case "yes":
-      console.log('wrong');
+      
       alert("NAH, NOT REALLY!");
       break;
     case "y":
-      console.log('wrong');
+      
       alert("NAH, NOT REALLY!!");
       break;
     case "no":
-      console.log('true');
+      
       alert("CORRECT!");
       score++;
       break;
     case "n":
-      console.log('true');
+      
       alert("CORRECT!");
       score++;
   }
@@ -80,21 +80,21 @@ function askCook() {
   cook = cook.toLowerCase();
   switch (cook) {
     case "yes":
-      console.log('correct!');
+      
       alert("CORRECT!");
       score++;
       break;
     case "y":
-      console.log('correct!');
+     
       alert("CORRECT!");
       score++;
       break;
     case "no":
-      console.log('wrong');
+      
       alert("NAH, NOT REALLY!");
       break;
     case "n":
-      console.log('wrong');
+      
       alert("NAH, NOT REALLY!");
   }
 }
@@ -104,20 +104,20 @@ function askSing() {
   sing = sing.toLowerCase();
   switch (sing) {
     case "yes":
-      console.log('wrong');
+      
       alert("NAH, NOT REALLY!");
       break;
     case "y":
-      console.log('wrong');
+      
       alert("NAH, NOT REALLY!");
       break;
     case "no":
-      console.log('true');
+      
       alert("CORRECT!");
       score++;
       break;
     case "n":
-      console.log('true');
+      
       alert("CORRECT!");
       score++;
   }
@@ -136,14 +136,14 @@ function askFavnumber() {
     if (favNumber > 10) {
       favNumber = prompt("too high. Try again");
       attempt++;
-      console.log("wrong");
+      
     } else if (favNumber < 10) {
       attempt++;
       favNumber = prompt("too low. Try again");
-      console.log("wrong");
+      
     } else if (favNumber == 10) {
       alert("CORRECT!");
-      console.log("true");
+      
       score++;
       break;
     }
@@ -161,13 +161,13 @@ function askCity() {
   for (let i = 0; i < 5; i++) {
     if (city.indexOf(favCity) != -1) {
       alert("CORRECT!");
-      console.log("true");
+      
       score++;
       break;
     } else {
       attempt++;
       favCity = prompt("Try again! One more attempt to go").toLowerCase();
-      console.log("wrong");
+      
     }
    
   }
